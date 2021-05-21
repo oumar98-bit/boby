@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+nav H1{
+    color: rgb(31, 31, 34);
+    font-family: 'fantasy' , sans-serif; 
+    font-size: 30px;
+    text-align: left;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 200px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-left: 90%;
+    border-bottom: 5px solid black ;
+    display: inline-block;
+    text-align: column;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url('meilleures-marques-chaussures-homme.jpg');
+    background-size: 0px;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 1000px;
+    height: 400px;
+}
+header h1{
+    font-family:'fantasy' , sans-serif ;
+    font-size: 55px;
+    }
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid white ;
+} 
+header button{
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    border:black;
+    font-size: 30px;
+    font-family: 'fantasy', sans-serif ;
+    outline:none;
+    cursor : pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 400px;
+    width: 600px;
+    margin-top: 5px;
+    }
+    
+footer{
+    margin-top: 40px;
+    border-top: 5px solid grey;
+    background-color: black;
+    color: darkred;
+    padding: 30px 110px;
+}
+
+footer h1{
+    font-family: "fantasy", sans-serif;
+    border-bottom: 1px solid darkred;
+    width: 15%;
+    padding-bottom: 5px;
+}
+footer .SERVICES{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .SERVICES .service{
+    margin-right: 40px;
+}
+footer .SERVICES .service p{
+    min-width: 300px;
+    padding: 10px;
+}
+footer #Contact{
+    color: darksalmon;
+}
